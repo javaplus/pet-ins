@@ -35,8 +35,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo npm -v
-          echo ls ./pet-ins
+          npm -v
+          ls ./pet-ins
           
        # Runs a set of commands using the runners shell
       - name: Run Unit tests
