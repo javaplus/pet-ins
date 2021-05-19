@@ -44,4 +44,4 @@ jobs:
       
       - name: Run Unit tests
         run: |
-          ng test
+          ng test --watch=false --code-coverage
