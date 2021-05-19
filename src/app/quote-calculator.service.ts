@@ -10,6 +10,6 @@ export class QuoteCalculatorService {
 
 
   calculateQuote(pet:Pet):number{
-    return 10;
+    return 11;
   }
 }
