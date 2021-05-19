@@ -31,17 +31,17 @@ jobs:
 
 
       # Debugging
-      - name: Run a multi-line script
+      - name: Npm version and debugging
         run: |
           npm -v
           ls -la
       
       # install the angular cli
-      - name: Run Unit tests
+      - name: install the angular cli
         run: |
-          npm install -g @angular/cli
+          sudo npm install -g @angular/cli
 
-      # Runs a set of commands using the runners shell
+      
       - name: Run Unit tests
         run: |
           ng test
