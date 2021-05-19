@@ -13,9 +13,8 @@ export class QuoteCalculatorService {
     let cost = 10;
     let petType = pet.type.toUpperCase();
     let petName = pet.name.toUpperCase();
-
-    if(petType === "CAT" && petName === "GARFIELD"){
-      cost = 8;
+    if(petType === "GOAT"){
+      return 7;
     }
     else if(petType === "BIRD" && petName === "TWEETY"){
       cost = 12;
