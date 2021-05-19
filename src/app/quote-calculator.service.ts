@@ -12,10 +12,16 @@ export class QuoteCalculatorService {
   calculateQuote(pet:Pet):number{
     let cost = 10;
     let petType = pet.type.toUpperCase();
+    let petName = pet.name.toUpperCase();
     if(petType === "GOAT"){
       return 7;
     }
-
+    else if(petType === "BIRD" && petName === "TWEETY"){
+      cost = 12;
+    }
+    else if(petType === "COYOTE" && petName === "WILEY"){
+      cost = 20;
+    }
     return cost;
   }
 }
