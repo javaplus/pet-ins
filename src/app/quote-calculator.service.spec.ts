@@ -16,8 +16,8 @@ describe('QuoteCalculatorService', () => {
 
   describe('calculateQuote', () => {
 
-    it('should return 10', () => {
-      expect(service.calculateQuote(null)).toEqual(10);
+    it('should return 11', () => {
+      expect(service.calculateQuote(null)).toEqual(11);
     });
 
   });
