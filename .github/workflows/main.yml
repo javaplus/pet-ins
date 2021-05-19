@@ -31,10 +31,10 @@ jobs:
 
 
       # Debugging
-      - name: Npm version and debugging
+      - name: run npm install
         run: |
           npm -v
-          ls -la
+          sudo npm install
       
       # install the angular cli
       - name: install the angular cli
